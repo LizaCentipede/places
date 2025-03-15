@@ -3,55 +3,74 @@
     <head>
     <meta charset="UTF-8">
     <title>
-     places I walk
+     Places I Walk
     </title>
       <style>
-        body {
-          background-color: #FFCCEA;
+         body {
+          background-image: url('IMG_5897.HEIC');
         }
-        #container 
+        div.container 
         {
-          width: 50em;
-          height: 100em;
-        background-color: #FFFCCC;
-        clear: both;
-      position: absolute;
+          width: 57em;
+          height: 60em;
+          background-color: rgba(255, 255, 255, 0.7);
+          clear: both;
+          position: absolute;
           top: 20%;
-          right: 15%;
+          right: 10%; 
         }
         
-        #nav 
-        {
-          background-color: #D08CB4;
-          width: 80em;
-          height: 5em;
-          display: block;
+        #hp{
+          width: 57em;
+          height: 20em;
+          background-color: rgba(255, 255, 255);
+          clear: both;
+          position: absolute;
+          top: 20%;
+          right: 10%; 
         }
-        
-        #suffer {
-         padding: 50px; 
-        }
-                
-      </style>
+           
+#navba {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10em;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 
+}
+
+li a {
+  
+  display: block;
+  width: 10em;
+  margin: .5em;
+  font-size: .99em;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em;
+}
       
+      </style>
   </head>
   <body>
-    <div>
+    <div class="container">
       <h1>
-        TITLE
+        PLACES I WALK
       </h1>
+          <div id="hp">
+      
     </div>
-  <div id="nav">
     </div>
-    
-    
-    <div id="container">
-      <p id="suffer">
-        HELP ME AHH
-        <br> I AM SUFFERING
-      </p>
-   </div>
+
+  <ul id="navba">
+      <li><a href="#home">Home</a></li>
+  <li><a href="#news">Things I Like</a></li>
+  <li><a href="#contact">Walking</a></li>
+  <li><a href="#about">About</a></li>
+    </ul>
+
+
   </body>
     
 </html>
