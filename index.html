@@ -87,15 +87,26 @@
 
 
       li a {
-        font-family: "VT323";
+        font-size: 20px;
         border: 4px purple;
         border-style: outset;
         display: block;
-        width: 10em;
+        width: 8em;
         margin: .5em;
-        font-size: .99em;
         background-color: rgba(255, 255, 255, 0.7);
-        padding: 1em;
+        padding: 0.5em;
+        font-family: "VT323", monospace;
+        text-decoration: none;
+        color: #375c0c;
+      }
+      
+      li a.visited {
+        text-decoration: none;
+        color: #375c0c;
+      }
+      
+      li a.hover {
+        color: red;
       }
 
       div.ls a{
