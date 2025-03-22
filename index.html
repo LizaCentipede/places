@@ -16,7 +16,7 @@
       }
 
       div.container {
-        border: 4px purple;
+        border: 4px red;
         border-style: outset;
         width: 57em;
         height: 60em;
@@ -25,8 +25,19 @@
         position: absolute;
         top: 20%;
         right: 10%;
-
+          animation-name: bord;
+        animation-duration: 6s;
+  animation-iteration-count: infinite;
       }
+      
+@keyframes bord {
+  0% {border-color: red;}
+  25% {border-color: orange;}
+  50% {border-color: yellow;}
+  75% {border-color: green;}
+  100% {border-color: blue;}
+  
+}
 
       div.hp {
         background-color: transparent;
@@ -88,7 +99,7 @@
 
       li a {
         font-size: 20px;
-        border: 4px purple;
+        border: 4px;
         border-style: outset;
         display: block;
         width: 8em;
@@ -98,6 +109,9 @@
         font-family: "VT323", monospace;
         text-decoration: none;
         color: #375c0c;
+                  animation-name: bord;
+        animation-duration: 6s;
+  animation-iteration-count: infinite;
       }
 
       li a.visited {
